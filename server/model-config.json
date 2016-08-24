@@ -31,5 +31,25 @@
   "Role": {
     "dataSource": "db",
     "public": false
+  },
+  "Author": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Book": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Publisher": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Customer": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Invoice": {
+    "dataSource": "db",
+    "public": true
   }
 }
