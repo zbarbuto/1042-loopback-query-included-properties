@@ -13,23 +13,16 @@
       "./mixins"
     ]
   },
-  "User": {
-    "dataSource": "db"
-  },
-  "AccessToken": {
+  "store": {
     "dataSource": "db",
-    "public": false
+    "public": true
   },
-  "ACL": {
+  "customer": {
     "dataSource": "db",
-    "public": false
+    "public": true
   },
-  "RoleMapping": {
+  "purchase": {
     "dataSource": "db",
-    "public": false
-  },
-  "Role": {
-    "dataSource": "db",
-    "public": false
+    "public": true
   }
 }
